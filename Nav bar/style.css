@@ -1,0 +1,35 @@
+* {
+    padding: o;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'spartan', sans-serif;
+
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: rgba(245, 241, 245, 0.467);
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.6);
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
