@@ -30,7 +30,7 @@ function Navbar() {
 
     return (
         <>
-            <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 h-16 shadow-md" style={{ boxShadow: "0px 4px 10px rgba(255, 255, 255, 0.6) fixed top-0 left-0 right-0"  }}>
+            <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 h-16 shadow-md" style={{ boxShadow: "0px 4px 10px rgba(255, 255, 255, 0.6) fixed top-0 left-0 right-0 z-50 bg-black "  }}>
                 <div className="flex justify-between items-center h-16 text-white">
                     <div className="flex space-x-2">
                         <img src={logo} className="h-16 w-16 rounded-full" alt="logo" />
